@@ -1,0 +1,44 @@
+
+header {
+	background-color: silver;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+h1 {
+	float: left;
+	text-align: center;
+	margin: 10px;
+}
+
+.navbar-fixed-top {
+	float: right;
+	margin: 10px;
+}
+
+a:link {
+	color: purple;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+form {
+	margin-top: 90px;
+}
+main {
+	color: grey;
+}
+
+main a:link {
+	color: blue;
+	text-decoration: none;
+}
